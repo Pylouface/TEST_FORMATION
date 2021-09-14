@@ -1,0 +1,118 @@
+#demo {
+    border: red 2px solid;
+  }
+
+.LienSurvol{
+    color: red;
+}
+
+  .LienSurvol:hover{
+    color: green;
+}
+
+/*ex 2*/
+/* Ajouter votre CSS ici */
+section{
+    color : green;
+    margin : 100px;
+}
+h1{
+    font-size:2.5em;
+    font-variant: small-caps;
+}
+p{
+    font-size:14px;
+}
+h2{
+    font-size:2vw;
+    font-family: Helvetica;
+}
+
+/*exx4*/
+/* Ajouter votre CSS ici */
+section{
+    font-family:helvetica;
+}
+p{
+    margin :20px, 20px,20px,20px;
+    text-transform : capitalize ;
+}
+h1{
+    color : red;
+    text-align : center;
+    font-size : 2em;
+}
+h2{
+    padding:10px;
+    background-color:red;
+    border-left: 50px solid black;
+}
+
+/* Ajouter votre CSS ici */
+body{
+    font-family : helvetica;
+}
+h1{
+    text-align : center;
+    color : red;
+}
+h2{
+    text-decoration: underline;
+}
+section > h2{
+    color : green;
+}
+article > h2{
+    color : blue;
+}
+h2 + p{
+    color : red;
+    font-style: italic;
+}
+h1 ~ p{
+    color : violet;
+}
+
+
+/*exercice 3*/
+td{
+    padding :1px;
+    border: solid black 1px;
+}
+tr:nth-child(odd){
+    background-color:violet;    
+}
+tr:last-child{
+    color : red;
+}
+
+/*exercice 4*/
+form{
+    font-family: helvetica;
+    width : 400px;
+    text-align : center;
+    margin :auto;
+    margin-top : 100px;
+}
+input{
+    border: 1px solid black;
+    width : 200px;
+    border-radius: 30px;
+    display:block;
+    padding: 5px;
+    margin : 5px;
+}
+label{
+    width :100px;
+    float :left;
+    display : block;
+}
+input[type=submit]{
+    background-color : green;
+    width : 400px;
+    text-align:center;
+    font-weight: bold;
+}
+input:focus{
+    border : solid blue 2px;
+}
