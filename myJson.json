@@ -1,0 +1,41 @@
+ {
+    "nomEscouade": "Les supers hérons",
+    "ville": "Quimper",
+    "dateFormation": 2020,
+    "nomBaseSecrete": "Super tours",
+    "actif": true,
+    "membres": [
+      {
+        "nom": "Molecule Man",
+        "age": 29,
+        "identiteSecrete": "Loic Lebreton",
+        "pouvoirs": [
+          "Resistances aux radiations",
+          "Devenir petit",
+          "Tir de radiation"
+        ]
+      },
+      {
+        "nom": "Madame Uppercut",
+        "age": 39,
+        "identiteSecrete": "Lois Giletjaune",
+        "pouvoirs": [
+          "Million tonne punch",
+          "Resistance aux dégats",
+          "Reflexes surhumain"
+        ]
+      },
+      {
+        "nom": "Eternal Flame",
+        "age": 1000000,
+        "identiteSecrete": "inconnu",
+        "pouvoirs": [
+          "Immortalité",
+          "Immunité à la chaleur",
+          "Inferno",
+          "Teleportation",
+          "Voyage interdimensionnel"
+        ]
+      }
+    ]
+  }
